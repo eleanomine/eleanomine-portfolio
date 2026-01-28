@@ -3,15 +3,15 @@ import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
-
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Eléa Nominé",
+template: "%s | Eléa Nominé",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description:
+  "Portfolio professionnel : Communication digitale - Création de contenus - Relations presse",
   openGraph: {
-    title: "chronark.com",
+    title: "Eléa Nominé",
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://chronark.com",
